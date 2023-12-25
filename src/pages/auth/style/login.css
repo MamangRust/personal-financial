@@ -1,0 +1,57 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f);
+}
+
+.login-card {
+    width: 480px; /* Lebar card yang lebih besar */
+    border-radius: 12px; /* Radius sudut yang sedikit lebih besar */
+    background-color: #ffffff; /* Warna latar belakang card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih terlihat */
+    padding: 30px; /* Ruang di dalam card yang lebih besar */
+}
+
+
+.login-card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0;
+}
+
+.login-form {
+    padding: 24px;
+}
+
+.login-form-item {
+    margin-bottom: 16px;
+}
+
+.login-form-item label {
+    font-weight: bold;
+}
+
+.login-form-item input {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+}
+
+.login-form-item input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login-form-item .button-container {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.login-form-item .ant-btn-primary {
+    border-radius: 4px;
+    width: auto; 
+}
